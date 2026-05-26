@@ -1,0 +1,74 @@
+# =========================
+# ARDUINO / EMBEDDED
+# =========================
+build/
+Build/
+Debug/
+Release/
+
+*.hex
+*.bin
+*.elf
+*.eep
+*.map
+*.o
+*.a
+*.obj
+*.d
+*.bak
+*.tmp
+*.temp
+*.log
+
+# =========================
+# ESP32 / PLATFORMIO
+# =========================
+.pio/
+.vscode/
+sdkconfig
+sdkconfig.old
+
+# =========================
+# C / C++ GENERATED FILES
+# =========================
+*.exe
+*.dll
+*.so
+*.out
+
+# =========================
+# PROTEUS
+# =========================
+*.pdsbak
+*.pdsprj.DESKTOP*
+*.workspace
+
+# =========================
+# ARDUINO IDE
+# =========================
+*.ino.with_bootloader.hex
+*.standard.hex
+*.eightanaloginputs.hex
+
+# =========================
+# CACHE FILES
+# =========================
+*.cache
+*.pyc
+*.class
+
+# =========================
+# WINDOWS FILES
+# =========================
+Thumbs.db
+desktop.ini
+
+# =========================
+# MAC FILES
+# =========================
+.DS_Store
+
+# =========================
+# GIT
+# =========================
+.gitignore~
